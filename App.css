@@ -1,0 +1,17 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#root {
+  max-width: 1280px;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --color-fondo: #181f29;
+  --color-letraBlanco: #dddddd;
+  --color-azul: #172430;
+  --color-tarjetas: rgb(57, 89, 122);
+}
