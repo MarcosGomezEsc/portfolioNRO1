@@ -1,0 +1,39 @@
+.navegadorHeader {
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+}
+
+.NavUl {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+  column-gap: 1rem;
+}
+.liA {
+  margin-top: 1rem;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-image: url("https://png.pngtree.com/background/20210714/original/pngtree-antique-kraft-paper-background-picture-image_1232394.jpg");
+  background-size: cover;
+
+  list-style: none;
+}
+
+.liA a {
+  color: #fff;
+  text-decoration: none;
+}
+.liA:hover {
+  transition: 0.3s;
+  background-image: url("https://s1.eestatic.com/2016/11/27/elandroidelibre/el_androide_libre_173996586_181430214_1152x608.jpg");
+}
+
+@media screen and (max-width: 250px) {
+  header {
+    visibility: hidden;
+    height: 1rem;
+  }
+}

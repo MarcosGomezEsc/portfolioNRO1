@@ -1,0 +1,84 @@
+.sectionInit {
+  background-image: url("../img/mapamundi.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.datos {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.inmgPerfil img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.textoNombre h1 {
+  font-size: 36px;
+  font-family: "Times New Roman", Times, serif;
+  color: #fbd6b0; /* Color del texto */
+  text-shadow: 2px 2px 5px rgba(148, 93, 48, 0.5); /* Sombra del texto */
+  background: linear-gradient(45deg, #382109, #ffecb3); /* Degradado de fondo */
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.textoMarketing p {
+  font-size: 18px;
+  color: #ffffff; /* Color del texto */
+  font-style: italic;
+  margin: 20px 0;
+}
+
+.ruteo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ruteo a {
+  display: inline-block;
+  box-shadow: 5px 5px 5px rgb(71, 41, 16); /* Sombra del texto */
+  padding: 10px 20px;
+  background-image: url("https://http2.mlstatic.com/D_NQ_NP_971352-MLA43967886849_112020-W.jpg");
+  background-size: cover;
+  text-decoration: none;
+  margin: 0 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #0b0702;
+}
+
+.ruteo a:hover {
+  transition: 0.3s;
+  background-image: url("https://s1.eestatic.com/2016/11/27/elandroidelibre/el_androide_libre_173996586_181430214_1152x608.jpg");
+}
+
+/* Estilo para los enlaces dentro de la sección */
+.sectionInit a {
+  text-decoration: none;
+}
+
+.sectionInit a:hover {
+  text-shadow: 2px 2px 1px rgb(1, 1, 1); /* Sombra del texto */
+  color: #fff;
+}
+
+/*tablet*/
+@media screen and (max-width: 700px) {
+}
+
+/*telefono*/
+@media screen and (max-width: 250px) {
+}

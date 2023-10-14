@@ -1,0 +1,38 @@
+.h2footer {
+  color: rgb(44, 77, 106);
+  background: #f0f0f0; /* Cambia el fondo a un tono más claro */
+  box-shadow: -5px -5px 10px #d9d9d9, 5px 5px 10px #ffffff; /* Agrega una sombra para el efecto de neumorfismo */
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: 1rem;
+  display: inline-block;
+}
+
+.neumorphic-footer {
+  padding: 20px;
+  margin: 9rem 0;
+  background: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: -10px -10px 20px #d9d9d9, 10px 10px 20px #ffffff;
+  text-align: center; /* Centra los elementos */
+}
+
+.contact-item {
+  margin-bottom: 2rem; /* Espacio entre elementos */
+}
+
+.contact-item img {
+  width: 40px;
+  height: 40px;
+}
+
+.contact-item span a {
+  text-decoration: none;
+  color: #f0f0f0;
+  background: #5c89b1; /* Cambia el fondo a un tono más claro */
+  box-shadow: -5px -5px 10px #637594, 5px 5px 10px #b8bcdbad; /* Agrega una sombra para el efecto de neumorfismo */
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: 1rem;
+  display: inline-block;
+}
