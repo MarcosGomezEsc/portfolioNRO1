@@ -5,13 +5,11 @@ import Inicio from "./componentes/Inicio_Home";
 import Proyectos from "./componentes/Proyectos";
 import Sobremi from "./componentes/Sobremi";
 import Contacto from "./componentes/Contacto";
-// import MouseTrail from "./mouse/Mouse";
 
 function App() {
   return (
     <>
       <Header />
-      {/* <MouseTrail /> */}
       <main>
         <Inicio />
         <Proyectos />
