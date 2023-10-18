@@ -1,0 +1,41 @@
+.h2footer {
+  background: #634112; /* Cambia el fondo a un tono más claro */
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: 1rem;
+  display: inline-block;
+}
+
+.neumorphic-footer {
+  padding: 20px;
+  margin: 0 0;
+  border-radius: 20px;
+  color: rgb(221, 188, 150);
+  box-shadow: -5px 10px 10px #7c675c, 5px 5px 10px #352411; /* */
+  text-align: center; /* Centra los elementos */
+}
+
+.contact-item {
+  margin-bottom: 2rem; /* Espacio entre elementos */
+}
+
+.contact-item img {
+  width: 40px;
+  height: 40px;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-item span a {
+  text-decoration: none;
+  color: rgb(221, 188, 150);
+  background: #634112; /* Cambia el fondo a un tono más claro */
+  box-shadow: -5px 10px 10px #7c675c, 5px 5px 10px #352411; /* */
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: 1rem;
+  display: inline-block;
+}
